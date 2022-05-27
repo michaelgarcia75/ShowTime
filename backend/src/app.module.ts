@@ -11,7 +11,7 @@ import { AuthModule } from './auth/auth.module';
   imports: [
     UsersModule,
     MongooseModule.forRoot(
-      'mongodb+srv://fdizes:vMPSvsv0rNz4wTp0@cluster0.9oo8u.mongodb.net/showtime',
+      // 'PUT DATABASE HERE',
       { w: 'majority', retryWrites: true },
     ),
     BandsModule,
